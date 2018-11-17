@@ -9,10 +9,10 @@ body {
 header{
   background-color: #03a3df;
   color: white;
-position: relative;
-padding: 1px;
-line-height: .5;
-text-indent: 4rem;
+  position: relative;
+  padding: 1px;
+  line-height: .5;
+  text-indent: 4rem;
 }
 
 nav{
@@ -30,7 +30,7 @@ ul li{
 }
 
 li:after {
-  content: " ";
+  content: "  ";
 }
 
 li:last-child::after {
@@ -50,4 +50,39 @@ h2{
 h3 {
   font-family: Arial;
   font-size: 17px;
+}
+
+article {
+  background-color: #1b447f;
+}
+
+.content-box{
+  width: 60%;
+  height: 30%;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+
+}
+
+.sidebar-box {
+width: 40%;
+height: 100%;
+margin: 0 auto;
+position: relative;
+float: right;
+}
+
+a {
+  color: #ecb722;
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  background-color: #444444;
+  position: relative;
+  float: left;
+  padding: 1rem;
+  width: 100%;
 }
