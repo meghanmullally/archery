@@ -38,6 +38,10 @@ li:last-child::after {
   content: " ";
 }
 
+.wrap {
+  overflow: auto;
+}
+
 h1{
   font-family: Arial bold;
   font-size: 40px;

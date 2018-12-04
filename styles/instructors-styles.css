@@ -1,0 +1,179 @@
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+header{
+  background-color: #03a3df;
+  color: white;
+  position: relative;
+  padding: 1px;
+  line-height: .5;
+  text-indent: 4rem;
+}
+
+nav{
+  color: white;
+  background-color: #444444;
+  position: relative;
+  float: left;
+  padding: 1rem;
+  width: 100%;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline;
+
+}
+
+li:after {
+  content: "  ";
+}
+
+li:last-child::after {
+  content: " ";
+}
+
+.wrap {
+  overflow: auto;
+}
+
+h1{
+  font-family: Arial bold;
+  font-size: 40px;
+}
+
+h2{
+  font-family: Arial bold;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+article {
+  background-color: #1b447f;
+}
+
+grid-container {
+  display: grid;
+  grid-row-gap: 0;
+}
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  float: left;
+  padding: 1rem;
+} */
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+header{
+  background-color: #03a3df;
+  color: white;
+  position: relative;
+  padding: 1px;
+  line-height: .5;
+  text-indent: 4rem;
+}
+
+nav{
+  color: white;
+  background-color: #444444;
+  position: relative;
+  float: left;
+  padding: 1rem;
+  width: 100%;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline;
+
+}
+
+li:after {
+  content: "  ";
+}
+
+li:last-child::after {
+  content: " ";
+}
+
+.wrap {
+  overflow: auto;
+}
+
+h1{
+  font-family: Arial bold;
+  font-size: 40px;
+}
+
+h2{
+  font-family: Arial bold;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+article {
+  background-color: #1b447f;
+}
+
+.content-box{
+  width: 60%;
+  height: 30%;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+
+}
+
+.sidebar-box {
+width: 40%;
+height: 100%;
+margin: 0 auto;
+position: relative;
+float: right;
+}
+
+a {
+  color: #ecb722;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  float: left;
+  padding: 1rem;
+}
