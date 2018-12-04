@@ -80,10 +80,11 @@ a {
 }
 
 footer {
-  color: white;
-  background-color: #444444;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  background-size: 100% 100%;
   position: relative;
   float: left;
   padding: 1rem;
-  width: 100%;
 }
