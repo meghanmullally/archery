@@ -7,7 +7,8 @@ body {
 }
 
 header{
-  background-color: #1b447f;
+  /* background-color: #1b447f; */
+background-color: white;
   color: white;
   position: relative;
   padding: 1px;
@@ -31,10 +32,10 @@ ul li{
 
 }
 
-.nav:hover {
+/* .nav:hover {
   font-size: 120%;
   text-decoration: underline;
-}
+} */
 
 
 h1{
@@ -61,6 +62,12 @@ main {
 }
 
  article {
+   background-color: #03a3df;
+  /* background-color: #1b447f; */
+  padding: 1rem;
+}
+
+main{
   background-color: #03a3df;
   padding: 1rem;
 }
@@ -98,13 +105,87 @@ position: relative;
 float: right;
 } */
 
+/* FORM */
+button, input, select, textarea {
+font-family: inherit;
+font-size: 100%;
+}
+
+input, textarea, select, button {
+/* width: 125px;
+margin: 0; */
+box-sizing: border-box;
+}
+
+fieldset {
+  border:1px solid black
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid black;
+  color:black;
+  font-size:90%;
+  text-align:left;
+  font-weight: bold;
+  }
 
 
+  label {
+    float:left;
+    width:25%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:left;
+    }
+
+input[type="email"]{
+border: 2px solid black;
+}
+
+input[type="text"]{
+border: 2px solid black;
+}
+
+input[type="number"]{
+border: 2px solid black;
+}
+
+input[type="date"]{
+border: 2px solid black;
+}
+
+
+input[type=submit] {
+  background-color: #ecb722;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  width: 150px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #444444;
+}
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
 a {
   color: #ecb722;
   text-decoration: none;
 }
+
 
 footer {
   width: 100%;
