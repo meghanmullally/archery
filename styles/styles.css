@@ -7,7 +7,7 @@ body {
 }
 
 header{
-  background-color: #03a3df;
+  background-color: #1b447f; 
   color: white;
   position: relative;
   padding: 1px;
@@ -61,7 +61,7 @@ main {
 }
 
  article {
-  background-color: #1b447f;
+  background-color: #03a3df;
   padding: 1rem;
 }
 
