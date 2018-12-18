@@ -91,37 +91,26 @@ main{
   text-align: center;
 }
 
-
-/*Video*/
-
-.controls {
-  height: 36px;
+/* Skip to Main text link for A11y */
+a.skip {
+    position: absolute;
+    top: auto;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
-button {
-  display: block;
-  float: left;
-  border: 0;
-  margin-right: 2px;
-  height: 100%;
-  width: 50px;
-  cursor: pointer;
-}
-
-button:hover, button:focus {
-  background-color: #ddd;
-}
-
-button:active {
-  background-color: #ccc;
-}
-
-.controls div {
-  font-size: 12px;
-  display: inline-block;
-  line-height: 36px;
-  width: 45px;
-  float: right;
+a.skip:active, a.skip:focus,a.skip:hover {
+    color: #fff;
+    background-color: #000;
+    left: auto;
+    top: auto;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 
