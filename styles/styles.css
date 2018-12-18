@@ -64,12 +64,12 @@ main {
  article {
    background-color: #03a3df;
   /* background-color: #1b447f; */
-  padding: 1rem;
+  padding: 2rem;
 }
 
 main{
   background-color: #03a3df;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 /*Grid*/
@@ -90,6 +90,40 @@ main{
   font-family: Arial;
   text-align: center;
 }
+
+
+/*Video*/
+
+.controls {
+  height: 36px;
+}
+
+button {
+  display: block;
+  float: left;
+  border: 0;
+  margin-right: 2px;
+  height: 100%;
+  width: 50px;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+.controls div {
+  font-size: 12px;
+  display: inline-block;
+  line-height: 36px;
+  width: 45px;
+  float: right;
+}
+
 
 /*
 grid-container {
@@ -117,7 +151,7 @@ grid-container {
 
 }
 
-.sidebar-box {
+ sidebar-box {
 width: 40%;
 height: 100%;
 margin: 0 auto;
